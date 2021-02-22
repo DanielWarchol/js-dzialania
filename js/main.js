@@ -1,4 +1,4 @@
-let num1 = 5;
+let num1 = 15;
 let num2 = 10;
 
 function wynik(num1 , num2){
@@ -11,20 +11,18 @@ function wynik(num1 , num2){
     }
     
     let wynikOdejmowania = num1 - num2;
-    if (wynikOdejmowania > 0) {
-        return num1 - num2;
+    if (wynikOdejmowania < 0) {
+        console.log(wynikOdejmowania);
     } else {
         console.log(`Wynik odejmowania wynosi ${wynikOdejmowania}`);
     }
 
     let wynikMnożenia = num1 * num2;
     if (wynikMnożenia * 0) {
-        return num1 * num2;
+        console.log(wynikMnożenia);
     } else {
         console.log(`Wynik mnożenia wynosi ${wynikMnożenia}`);
     }
 }
 
 wynik(num1,num2);
-
-
